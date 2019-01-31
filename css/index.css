@@ -1,0 +1,63 @@
+/*
+* @Author: Administrator
+* @Date:   2018-09-14 16:25:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-14 16:52:53
+*/
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 10px; }
+body { background: #fff; color: #363636; font-size: 140%; }
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video, select, 
+option { margin: 0; padding: 0; border: 0; vertical-align: baseline; font-family: "微软雅黑", Arial, Helvetica, sans-serif; -webkit-text-size-adjust:none;  }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+img, iframe, fieldset, button, input { border: none; }
+img { vertical-align:top; }
+ul, ol, li { list-style: none; }
+html,body,.wrapper{width: 100%;height: 100%;position: relative;background-color: #f1edf6;}
+	.wrapper {max-width: 750px;margin:0 auto;overflow: hidden;}
+	.p0 input{
+		display: block;margin:0 auto;margin-bottom: 0.5rem;
+		width:4.2rem;height:0.6rem;line-height:0.6rem;
+		padding-left: 0.2rem;border-radius: 8px;
+	}
+	.lookUp{
+		font-size: 16px;color: #8654CC;padding:6px;
+		background-color: #F9DE5D;width:40%;margin:1.5rem auto;
+		text-align: center;border-radius: 6px;
+		box-shadow: 3px 3px 3px #ccc;
+	}
+	.wrapper{
+		background-image:url(../5i_imgs/2bg.png);
+		background-size: 100% 100%;background-position: 0px 0px;
+		background-repeat: no-repeat;position: relative;
+	}
+	.content{
+		font-size: 14px;
+		width: 70%;
+		height:6rem;
+		margin:2.2rem auto 0;
+		background-color: #fff;
+		padding: 0.1rem 0;
+		overflow-y: scroll;
+	}
+	.content ul li{
+		width: 95%;
+		line-height: 0.8rem;
+		padding-left: 0.1rem;
+		border:1px solid #F9DE5D;
+		margin:0 0.1rem;
+		margin-top: 0.1rem;
+	}
+    .content ul li div{
+		width: 95%;
+		line-height: 0.8rem;
+		padding-left: 0.1rem;
+		margin:0 0.1rem;
+		margin-top: 0.1rem;
+	}
